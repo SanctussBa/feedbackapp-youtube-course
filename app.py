@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # heroku will have anothere database so we have to create statement which define
 # when it's under deployment and when under development mode
-ENV = 'dev'
+#ENV = 'dev'
 if ENV == 'dev':
     # If its under development mode... then:
     app.debug = True
